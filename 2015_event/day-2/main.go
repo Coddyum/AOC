@@ -21,6 +21,7 @@ func main() {
 	totalRibbon := 0
 	for _, line := range chars {
 		parts := strings.Split(line, "x")
+		fmt.Println(parts)
 
 		// strings parts to int
 		l, _ := strconv.Atoi(parts[0])
